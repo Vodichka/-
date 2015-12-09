@@ -1,0 +1,19 @@
+k=input()
+a=0
+c=0
+g=0
+t=0
+for i in range (0,len(k)):
+    if k[i]=="A":
+        a=a+1
+
+    if k[i]=="C":
+        c=c+1
+
+    if k[i]=="G":
+        g=g+1
+
+    if k[i]=="T":
+        t=t+1
+print(a,c,g,t)
+        
