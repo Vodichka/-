@@ -1,0 +1,19 @@
+s=input()
+a=0
+c=0
+g=0
+t=0
+for i in range (0,len(s)):
+    if s[i]=="A":
+        a=a+1
+
+    if s[i]=="C":
+        c=c+1
+
+    if s[i]=="G":
+        g=g+1
+
+    if s[i]=="T":
+     s=s.replace('T','U')
+print(s)
+        
